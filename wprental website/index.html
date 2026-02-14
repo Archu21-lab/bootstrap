@@ -1,362 +1,616 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Wprental website</title>
-    <link
-  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
-  rel="stylesheet"
-/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  </head>
-  <body>
-      <!--navbar-->  
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-      <div class="">
-          <img src="./logo.png" alt="">
-      </div>
-    <div class="collapse navbar-collapse  d-flex justify-content-center" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">DEMOS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">SHOWCASE</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">API</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">BLOG</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">FAQ</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            FEATURES
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">wp rental studio</a></li>
-            <li><a class="dropdown-item" href="#">ready to use demos</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">strips&paypal payments</a></li>
-            <li><a class="dropdown-item" href="#">paid Submission option</a></li>
-            <li><a class="dropdown-item" href="#">Narreted Videos Tutorials </a></li>
-            <li><a class="dropdown-item" href="#">vacation rentals API</a></li>
-            <li><a class="dropdown-item" href="#">Booking Options</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-            <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
-        </ul>
-        </li>
-      </ul>
-    </div>
 
-    <div class="btn btn-primary fw-bold rounded-5">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wprental website</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <style>
+    .bg-purple {
+      background-color: rgb(205, 118, 234);
+    }
+
+    .text-color {
+      color: rgb(205, 118, 234);
+    }
+  </style>
+
+</head>
+
+
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <div class="">
+        <img src="./logo.png" alt="">
+      </div>
+      <div class="collapse navbar-collapse  d-flex justify-content-center" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">DEMOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SHOWCASE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">API</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              FEATURES
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">wp rental studio</a></li>
+              <li><a class="dropdown-item" href="#">ready to use demos</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">strips&paypal payments</a></li>
+              <li><a class="dropdown-item" href="#">paid Submission option</a></li>
+              <li><a class="dropdown-item" href="#">Narreted Videos Tutorials </a></li>
+              <li><a class="dropdown-item" href="#">vacation rentals API</a></li>
+              <li><a class="dropdown-item" href="#">Booking Options</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+              <li><a class="dropdown-item" href="#">Woo commerce integration</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="btn btn-primary fw-bold rounded-5 bg-purple">
 
         BUY NOW
 
+      </div>
     </div>
-  </div>
 
 
-</nav>
+  </nav>
 
-      <!--hero section-->
-      <div class="container-fluid">
-        <div class="row">
-      <div class="col-4 text-center align-content-center">
-            <span class="fs-6 text-primary">Best Selling Booking & Rentals WordPress Theme</span>
-          <h1>Vacation Rental
-              <br/>WordPress Theme</h1>
+  <!--hero section col-sm-1 col-md-1 col-lg-1 col-xl-2 col-xxl-2-->
+  <div class="container-fluid">
+    <div class=" row row-cols-sm-1 row-cols-md-1  row-cols-lg-1 row-cols-xl-2 row-cols-xxl-2 justify-content-center">
+    
+       <div class="col-4 text-center align-content-center">
+        <span class="fs-6 text-color">Best Selling Booking & Rentals WordPress Theme</span>
+        <h1>Vacation Rental
+          <br />WordPress Theme
+        </h1>
 
-              <p class="fs-5 p-2">WPRentals is a highly customizable WordPress theme to <br/> list, find & book accommodations and objects.</p>
-         
+        <p class="fs-5 p-2">WPRentals is a highly customizable WordPress theme to <br /> list, find & book
+          accommodations and objects.</p>
+
 
         <div>
-          <button type="button"  style="height:50px; width:170px;" class="btn btn-primary  fw-bold rounded-5 btn-sm">SEE THE DEMOS</button>
-          <button type="button" style="height:50px; width:100px;" class="btn btn-secondary fw-bold rounded-5 btn-sm">BUY NOW</button>
+          <button type="button" style="height:50px; width:170px;"
+            class="btn  btn-primary fw-bold rounded-5  bg-purple btn-sm">SEE THE DEMOS</button>
+          <button type="button" style="height:50px; width:100px;" class="btn btn-secondary fw-bold rounded-5 btn-sm">BUY
+            NOW</button>
         </div>
-      </div>
-
-      <div class="col-8">
-        <img src="./img-1.webp" alt="">
-      </div>
-    </div>
-    </div>
-
-    <!--videolink section-->
-
-    <div class="container">
-       
-    <div class="row py-5">
-       <div class="col-4">
-           <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
-        <i class="ri-id-card-line"></i>WP Rentals Studio
-      </a>
-      <hr/>
-      <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
-      <i class="ri-info-card-line"></i>Demos & Studio Templates
-      </a>
-      <hr/>
-      <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
-        <i class="ri-wallet-line"></i>WP Rentals Booking System
-      </a>
-      <hr>
-      <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
-        <i class="ri-bank-card-2-line"></i>WP Rentals lcal/ Calendar Sync
-      </a>
-      <hr>
-
-      <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
-        <i class="ri-bank-card-2-line"></i>WP Rentals Users Role
-      </a>
-      <hr>
-
-      <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
-        <i class="ri-id-card-fill"></i>Owners & Renters Dashboard 
-      </a>
-      <hr/>
-      <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
-       <i class="ri-file-pdf-line"></i>WP Rentals payments
-      </a>
-     <hr>
-
-     <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
-        <i class="ri-file-pdf-2-line"></i>WP Rentals Listing Page
-      </a>
-        <hr/>
-        <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
-     <i class="ri-file-pdf-2-fill"></i>Advanced Search System
-      </a>
-
      </div>
+
+      <div class="col-8 row-cols-sm-1-align-content-center row-cols-md-1-align-content-center row-cols-lg-1-align-content-center">
+      <img src="./img-1.webp" alt="">
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!--videolink section-->
+
+  <div class="container">
+
+    <div class="row row-cols-sm-1 row-cols-md-1  row-cols-lg-1 row-cols-xl-2 row-cols-xxl-2 justify-content-center py-5">
+      <div class="col-4">
+        <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
+          <i class="ri-id-card-line"></i>WP Rentals Studio
+        </a>
+        <hr />
+        <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
+          <i class="ri-info-card-line"></i>Demos & Studio Templates
+        </a>
+        <hr />
+        <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
+          <i class="ri-wallet-line"></i>WP Rentals Booking System
+        </a>
+        <hr>
+        <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
+          <i class="ri-bank-card-2-line"></i>WP Rentals lcal/ Calendar Sync
+        </a>
+        <hr>
+
+        <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
+          <i class="ri-bank-card-2-line"></i>WP Rentals Users Role
+        </a>
+        <hr>
+
+        <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
+          <i class="ri-id-card-fill"></i>Owners & Renters Dashboard
+        </a>
+        <hr />
+        <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
+          <i class="ri-file-pdf-line"></i>WP Rentals payments
+        </a>
+        <hr>
+
+        <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
+          <i class="ri-file-pdf-2-line"></i>WP Rentals Listing Page
+        </a>
+        <hr />
+        <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="#">
+          <i class="ri-file-pdf-2-fill"></i>Advanced Search System
+        </a>
+
+      </div>
+
+      <img class="col-8"
+        src="https://images.pexels.com/photos/33440278/pexels-photo-33440278.jpeg?cs=srgb&dl=pexels-zulfugarkarimov-33440278.jpg&fm=jpg"
+        alt="">
+
+
+    </div>
+  </div>
+
+  <!--cards-->
+
+  <div class="container-fluid">
+    <div class="row text-center m-5 p-2">
+      <h1 class="p-2">Get Online Quickly with 24 Ready-to-use Demos</h1>
+      <span class="fs-5 p-2">Select a demo and get your site live with one click</span>
+
+      <div class="p-3">
+        <button type="button" class="btn btn-outline-secondary m-2 rounded-5">All Demos</button>
+        <button type="button" class="btn btn-outline-secondary m-2 rounded-5">Multiple Owners Demo</button>
+        <button type="button" class="btn btn-outline-secondary  m-2  rounded-5">Single Owners Demo</button>
+        <button type="button" class="btn btn-outline-secondary m-2  rounded-5">Yacht/Motorhome Rental</button>
+        <button type="button" class="btn  btn-outline-secondary m-2 rounded-5">Per Hours/ Mixt Demos</button>
+      </div>
+    </div>
+
+  </div>
+
+  
+     <div class="container-fluid d-flex justify-content-between py-3">
      
-      <img  class="col-8" src="https://images.pexels.com/photos/33440278/pexels-photo-33440278.jpeg?cs=srgb&dl=pexels-zulfugarkarimov-33440278.jpg&fm=jpg" alt="">
-     
-    
-    </div>
-    </div>
+    <img class="col-3 rounded-4 m-3" src="./img-2.webp" alt="">
+    <img class="col-3 rounded-4 m-3" src="./img-3.webp" alt="">
+    <img class="col-3 rounded-4 m-3" src="./img-4.webp" alt="">
 
-    <!--cards-->
+  </div>
 
-    <div class="container-fluid">
-        <div class="row text-center m-5 p-2">
-          <h1 class="p-2">Get Online Quickly with 24 Ready-to-use Demos</h1>
-          <span class="fs-5 p-2">Select a demo and get your site live with one click</span>
+  <div class="container-fluid d-flex justify-content-between py-3">
+    <img class="col-3 rounded-4 m-3" src="./img-6.webp" alt="">
+    <img class="col-3 rounded-4 m-3" src="./img-7.webp" alt="">
+    <img class="col-3 rounded-4 m-3" src="./img-5.webp" alt="">
 
-          <div class="p-3">
-          <button type="button" class="btn btn-outline-secondary m-2 rounded-5">All Demos</button>
-          <button type="button" class="btn btn-outline-secondary m-2 rounded-5">Multiple Owners Demo</button>
-          <button type="button" class="btn btn-outline-secondary  m-2  rounded-5">Single Owners Demo</button>
-          <button type="button" class="btn btn-outline-secondary m-2  rounded-5">Yacht/Motorhome Rental</button>
-          <button type="button" class="btn btn-outline-secondary  m-2 rounded-5">Per Hours/ Mixt Demos</button>
-        </div>
-        </div>
+  </div>
 
-    </div>
+  <div class="container-fluid d-flex justify-content-between py-3">
+    <img class="col-3 rounded-4  m-3" src="./img-2.webp" alt="">
+    <img class="col-3 rounded-4 m-3" src="./img-3.webp" alt="">
+    <img class="col-3 rounded-4 m-3" src="./img-4.webp" alt="">
 
-    <div class="container-fluid d-flex justify-content-between py-3">
-      <img class="col-3 rounded-4  m-3" src="./img-2.webp" alt="">
-      <img class="col-3 rounded-4 m-3" src="./img-3.webp" alt="">
-      <img class="col-3 rounded-4 m-3" src="./img-4.webp" alt="">
-       
-    </div>
+  </div>
 
-    <div class="container-fluid d-flex justify-content-between py-3">
-      <img class="col-3 rounded-4 m-3" src="./img-6.webp" alt="">
-      <img class="col-3 rounded-4 m-3" src="./img-7.webp" alt="">
-      <img class="col-3 rounded-4 m-3" src="./img-5.webp" alt="">
-      
-    </div>
+  <div class="container-fluid d-flex justify-content-between py-3">
+    <img class="col-3 rounded-4 m-3" src="./img-6.webp" alt="">
+    <img class="col-3 rounded-4 m-3" src="./img-7.webp" alt="">
+    <img class="col-3 rounded-4 m-3" src="./img-5.webp" alt="">
 
-    <div class="container-fluid d-flex justify-content-between py-3">
-      <img class="col-3 rounded-4  m-3" src="./img-2.webp" alt="">
-      <img class="col-3 rounded-4 m-3" src="./img-3.webp" alt="">
-      <img class="col-3 rounded-4 m-3" src="./img-4.webp" alt="">
-       
-    </div>
-
-    <div class="container-fluid d-flex justify-content-between py-3">
-      <img class="col-3 rounded-4 m-3" src="./img-6.webp" alt="">
-      <img class="col-3 rounded-4 m-3" src="./img-7.webp" alt="">
-      <img class="col-3 rounded-4 m-3" src="./img-5.webp" alt="">
-      
-    </div>
+  </div>
 
 
-    <div class="container-fluid d-flex justify-content-between py-3">
-      <img class="col-3 rounded-4  m-3" src="./img-2.webp" alt="">
-      <img class="col-3 rounded-4 m-3" src="./img-3.webp" alt="">
-      <img class="col-3 rounded-4 m-3" src="./img-4.webp" alt="">
-       
-    </div>
+  <div class="container-fluid d-flex justify-content-between py-3">
+    <img class="col-3 rounded-4  m-3" src="./img-2.webp" alt="">
+    <img class="col-3 rounded-4 m-3" src="./img-3.webp" alt="">
+    <img class="col-3 rounded-4 m-3" src="./img-4.webp" alt="">
 
+  </div>
   <div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner" style="height: 400px; width:100%;">
+      <div class="carousel-item active d-flex justify-content-between">
+        <div style="height: 250px; width: 400px;" class="bg-light rounded-4 py-4 m-5 p-3">
+          ⭐⭐⭐⭐⭐
+          <h3>For Design Quality</h3>
+          <span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consectetur ea impedit voluptates nulla
+            quaerat nostrum magnam! Ut, aspernatur eligendi?
+          </span>
+          <p class="m-2"><span class="fw-bold">Caddy8 </span> 2025-05-11</p>
+        </div>
+        <div style="height: 200px; width: 400px;" class="bg-light rounded-4 py-4 m-5 p-3">
+          ⭐⭐⭐⭐⭐
+          <h3>For Customer Support</h3>
+          <span>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos,Lorem ipsum dolor sit amet.
+          </span>
+          <p class="m-2"><span class="fw-bold">osalesse1</span> on 2025-04-25</p>
+        </div>
+
+        <div style="height: 250px; width: 400px;" class="bg-light rounded-4 py-4 m-5 p-3">
+          ⭐⭐⭐⭐⭐
+          <h3>For Features Avalibility</h3>
+          <span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consectetur ea impedit voluptates nulla
+            quaerat nostrum magnam! Ut, aspernatur eligendi?
+          </span>
+          <p class="m-2"><span class="fw-bold">JVJH44 </span> on 2025-04-07</p>
+        </div>
+      </div>
+      <div class="carousel-item d-flex justify-content-between">
+        <div style="height: 250px; width: 400px;" class="bg-light rounded-4 py-4 m-5 p-3">
+          ⭐⭐⭐⭐⭐
+          <h3>For Design Quality</h3>
+          <span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consectetur ea impedit voluptates nulla
+            quaerat nostrum magnam! Ut, aspernatur eligendi?
+          </span>
+          <p class="m-2"><span class="fw-bold">Caddy8 </span> 2025-05-11</p>
+        </div>
+        <div style="height: 200px; width: 400px;" class="bg-light rounded-4 py-4 m-5 p-3">
+          ⭐⭐⭐⭐⭐
+          <h3>For Customer Support</h3>
+          <span>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos,Lorem ipsum dolor sit amet.
+          </span>
+          <p class="m-2"><span class="fw-bold">osalesse1</span> on 2025-04-25</p>
+        </div>
+
+        <div style="height: 250px; width: 400px;" class="bg-light rounded-4 py-4 m-5 p-3">
+          ⭐⭐⭐⭐⭐
+          <h3>For Features Avalibility</h3>
+          <span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consectetur ea impedit voluptates nulla
+            quaerat nostrum magnam! Ut, aspernatur eligendi?
+          </span>
+          <p class="m-2"><span class="fw-bold">JVJH44 </span> on 2025-04-07</p>
+        </div>
+      </div>
+      <div class="carousel-item d-flex justify-content-between">
+        <div style="height: 250px; width: 400px;" class="bg-light rounded-4 py-4 m-5 p-3">
+          ⭐⭐⭐⭐⭐
+          <h3>For Flexibility</h3>
+          <span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consectetur ea impedit voluptates nulla
+            quaerat nostrum magnam! Ut, aspernatur eligendi?
+          </span>
+          <p class="m-2"><span class="fw-bold">Caddy8 </span> 2025-05-11</p>
+        </div>
+        <div style="height: 200px; width: 400px;" class="bg-light rounded-4 py-4 m-5 p-3">
+          ⭐⭐⭐⭐⭐
+          <h3>For Customer Support</h3>
+          <span>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos,Lorem ipsum dolor sit amet.
+          </span>
+          <p class="m-2"><span class="fw-bold">osalesse1</span> on 2025-04-25</p>
+        </div>
+
+        <div style="height: 250px; width: 400px;" class="bg-light rounded-4 py-4 m-5 p-3">
+          ⭐⭐⭐⭐⭐
+          <h3>For Features Avalibility</h3>
+          <span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consectetur ea impedit voluptates nulla
+            quaerat nostrum magnam! Ut, aspernatur eligendi?
+          </span>
+          <p class="m-2"><span class="fw-bold">JVJH44 </span> on 2025-04-07</p>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </div>
-  <div class="carousel-inner" style="height: 400px; width:100%;">
-    <div class="carousel-item active d-flex justify-content-between">
-   <div style="height: 250px; width: 400px;" class="bg-light rounded-4 py-4 m-5 p-3">
-     ⭐⭐⭐⭐⭐ 
-    <h3>For Design Quality</h3>
-    <span>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consectetur ea impedit voluptates nulla quaerat nostrum magnam! Ut, aspernatur eligendi?
-    </span>
-    <p class="m-2"><span class="fw-bold">Caddy8 </span> 2025-05-11</p>
-   </div>
-    <div style="height: 200px; width: 400px;" class="bg-light rounded-4 py-4 m-5 p-3">
-     ⭐⭐⭐⭐⭐ 
-    <h3>For Customer Support</h3>
-    <span>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos,Lorem ipsum dolor sit amet.
-    </span>
-    <p class="m-2"><span class="fw-bold">osalesse1</span> on 2025-04-25</p>
-   </div>
-
-   <div style="height: 250px; width: 400px;" class="bg-light rounded-4 py-4 m-5 p-3">
-     ⭐⭐⭐⭐⭐ 
-    <h3>For Features Avalibility</h3>
-    <span>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consectetur ea impedit voluptates nulla quaerat nostrum magnam! Ut, aspernatur eligendi?
-    </span>
-    <p class="m-2"><span class="fw-bold">JVJH44 </span>  on 2025-04-07</p>
-   </div>
-   </div>
-   <div class="carousel-item d-flex justify-content-between">
-     <div style="height: 250px; width: 400px;" class="bg-light rounded-4 py-4 m-5 p-3">
-     ⭐⭐⭐⭐⭐ 
-    <h3>For Design Quality</h3>
-    <span>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consectetur ea impedit voluptates nulla quaerat nostrum magnam! Ut, aspernatur eligendi?
-    </span>
-    <p class="m-2"><span class="fw-bold">Caddy8 </span> 2025-05-11</p>
-   </div>
-    <div style="height: 200px; width: 400px;" class="bg-light rounded-4 py-4 m-5 p-3">
-     ⭐⭐⭐⭐⭐ 
-    <h3>For Customer Support</h3>
-    <span>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos,Lorem ipsum dolor sit amet.
-    </span>
-    <p class="m-2"><span class="fw-bold">osalesse1</span> on 2025-04-25</p>
-   </div>
-
-   <div style="height: 250px; width: 400px;" class="bg-light rounded-4 py-4 m-5 p-3">
-     ⭐⭐⭐⭐⭐ 
-    <h3>For Features Avalibility</h3>
-    <span>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consectetur ea impedit voluptates nulla quaerat nostrum magnam! Ut, aspernatur eligendi?
-    </span>
-    <p class="m-2"><span class="fw-bold">JVJH44 </span>  on 2025-04-07</p>
-   </div>
-    </div>
-    <div class="carousel-item d-flex justify-content-between">
-     <div style="height: 250px; width: 400px;" class="bg-light rounded-4 py-4 m-5 p-3">
-     ⭐⭐⭐⭐⭐ 
-    <h3>For Flexibility</h3>
-    <span>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consectetur ea impedit voluptates nulla quaerat nostrum magnam! Ut, aspernatur eligendi?
-    </span>
-    <p class="m-2"><span class="fw-bold">Caddy8 </span> 2025-05-11</p>
-   </div>
-    <div style="height: 200px; width: 400px;" class="bg-light rounded-4 py-4 m-5 p-3">
-     ⭐⭐⭐⭐⭐ 
-    <h3>For Customer Support</h3>
-    <span>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos,Lorem ipsum dolor sit amet.
-    </span>
-    <p class="m-2"><span class="fw-bold">osalesse1</span> on 2025-04-25</p>
-   </div>
-
-   <div style="height: 250px; width: 400px;" class="bg-light rounded-4 py-4 m-5 p-3">
-     ⭐⭐⭐⭐⭐ 
-    <h3>For Features Avalibility</h3>
-    <span>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore consectetur ea impedit voluptates nulla quaerat nostrum magnam! Ut, aspernatur eligendi?
-    </span>
-    <p class="m-2"><span class="fw-bold">JVJH44 </span>  on 2025-04-07</p>
-   </div>
-    </div>
    
-   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</div>
+  <!--button read all review-->
+  <div class="d-flex justify-content-center">
+    <div class="btn btn-primary bg-purple fs-4 rounded-5">
 
-    <div class="d-flex justify-content-center">
-      <div class="btn btn-primary fs-4 rounded-5">
-
-        READ ALL REVIEWED
+      READ ALL REVIEWED
 
     </div>
-    
-    </div>
 
-
-    <div class="card-group d-flex justify-content-between p-1 m-5">
-  <div class="card rounded-4 bg-info-subtle m-2">
-    <div class="card-body">
-      <h2 class="card-title">Search Form</h2>
-      <p class="card-text">Let guests book faster with smart date selection, <br/>flexible pricing rules,<br/> and instant availability checks that update in real time. Provide a smoother booking <br/>flow that reduces friction and helps convert more visitors into confirmed guests.</p>
   </div>
+
+  <!--cards-->
+  <div class="card-group d-flex justify-content-between p-1 m-5 row-cols-xl-3 row-cols-lg-2 row-cols-md-1 row-cols-sm-1">
+    <div class="card rounded-4 bg-info-subtle m-2">
+      <div class="card-body">
+        <h2 class="card-title">Search Form</h2>
+        <p class="card-text">Let guests book faster with smart date selection, <br />flexible pricing rules,<br /> and
+          instant availability checks that update in real time. Provide a smoother booking <br />flow that reduces
+          friction and helps convert more visitors into confirmed guests.</p>
+      </div>
       <div class="d-flex justify-content-center rounded-4">
-      <img style="height: 400px; width: 400px;" src="https://www.webnode.com/blog/wp-content/uploads/2016/10/Blog-intro.jpg" class="card-img-top" alt="...">
+        <img style="height: 400px; width: 400px;"
+          src="https://www.webnode.com/blog/wp-content/uploads/2016/10/Blog-intro.jpg" class="card-img-top" alt="...">
+      </div>
     </div>
-  </div>
-  <div class="card rounded-4 bg-danger-subtle m-2">
-    <div class="card-body">
-      <h2 class="card-title">Advanced Booking Form</h2>
-      <p class="card-text">Help users find the perfect rental quickly with advanced filters for location, price, dates, and amenities. Real-time search results update instantly as they refine their choices, delivering a faster and more intuitive browsing experience.</p>
-  </div>
-    <div class="d-flex justify-content-center rounded-4">
-      <img style="height: 400px; width: 400px;" src="https://d2rd7etdn93tqb.cloudfront.net/wp-content/uploads/2016/08/blogging-083016.jpg" class="card-img-top" alt="...">
+    <div class="card rounded-4 bg-danger-subtle m-2">
+      <div class="card-body">
+        <h2 class="card-title">Advanced Booking Form</h2>
+        <p class="card-text">Help users find the perfect rental quickly with advanced filters for location, price,
+          dates, and amenities. Real-time search results update instantly as they refine their choices, delivering a
+          faster and more intuitive browsing experience.</p>
+      </div>
+      <div class="d-flex justify-content-center rounded-4">
+        <img style="height: 400px; width: 400px;"
+          src="https://d2rd7etdn93tqb.cloudfront.net/wp-content/uploads/2016/08/blogging-083016.jpg"
+          class="card-img-top" alt="...">
+      </div>
     </div>
-  </div>
     <div class="card bg-primary-subtle rounded-4 m-2">
-    <div class="card-body">
-      <h2 class="card-title">WP Rentals API</h2>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-    </div>
-    <div class="d-flex justify-content-center rounded-4">
-      <img style="height: 400px; width: 400px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnMGl8QAo8SpCh_HJ4aia-8agpOdGGSxbKKg&s" class="card-img-top" alt="...">
-    </div>
-    
-</div>
-</div>
+      <div class="card-body">
+        <h2 class="card-title">WP Rentals API</h2>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+          This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="d-flex justify-content-center rounded-4">
+        <img style="height: 400px; width: 400px;"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnMGl8QAo8SpCh_HJ4aia-8agpOdGGSxbKKg&s"
+          class="card-img-top" alt="...">
+      </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+    </div>
+  </div>
+
+
+  <!--listing page templates-->
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div id="carouselExampleRide" class="carousel slide col-6" data-bs-ride="true">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img style="height: 700px; width: 100%;" class="rounded-3"
+                src="https://cdn.prod.website-files.com/63e230081c53f7989f5e0f64/687b79b1973bc5e4e2f57846_online-hotel-booking-website-template.jpg"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img style="height: 700px; width: 100%;" class="rounded-3"
+                src="https://static.joomlart.com/images/ja-template/ja-resort/slideshow/hotel-booking-joomla-template-blog.jpg"
+                class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img style="height: 700px; width: 100%;" class="rounded-3"
+                src="https://templately.com/_next/image?url=https%3A%2F%2Fitems.templately.com%2Fitem-251be37e9242a72c1d4784acb02c9f49%2Flaluxurio-room-booking-page-thumbnail-xxkGyqv.jpg&w=3840&q=75"
+                class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="col-6">
+          <h1><i class="ri-file-copy-2-line"></i>Listing Page Templates</h1>
+          <span>Choose from five ready-made templates that organize property details for the best user experience. Each
+            template is built for flexibility, letting you switch layouts without touching code.</span>
+          <p>Combine key features like price, gallery, availability, and reviews to match your business style.</p>
+
+          <div class="container text-center">
+            <div class="row my-5">
+              <div class="col-6 col-sm-4">
+                <p class="fw-bold">Booking Form</p>
+
+                Booking form with price details, advanced guests and availability calendar
+              </div>
+              <div class="col-sm-4">
+                <p class="fw-bold">Interactive Availability</p>
+
+
+                Interactive availability calendar showing booked and open dates
+              </div>
+
+              <div class="col-sm-4">
+                <p class="fw-bold">Price Section</p>
+
+                Price section with full rate breakdown, extra fees, and custom periods
+              </div>
+              <div class="col-sm-4 p-4">
+                <p class="fw-bold">Listing Details</p>
+
+                Property description, amenities, and sleeping arrangements in clear sections
+              </div>
+              <div class="col-sm-4 p-4">
+                <p class="fw-bold">Owner Section</p>
+
+                Owner profile with verified details and direct contact option just a limited period.
+              </div>
+
+              <div class="col-sm-4 p-4">
+                <p class="fw-bold">Owner Section</p>
+
+                Owner profile with verified details and direct contact option just a limited period.
+              </div>
+
+              <div class="col-sm-4 p-4">
+                <p class="fw-bold">Owner Section</p>
+
+                Owner profile with verified details and direct contact option just a limited period.
+              </div>
+
+              <div class="col-sm-4 p-4">
+                <p class="fw-bold">Owner Section</p>
+
+                Owner profile with verified details and direct contact option just a limited period.
+              </div>
+
+              <div class="col-sm-4 p-4">
+                <p class="fw-bold">Owner Section</p>
+
+                Owner profile with verified details and direct contact option just a limited period.
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <!--payment&money-->
+      <div class="container-fluid">
+        <div class="row bg-light">
+
+          <div>
+            <h1><i class="ri-settings-5-line"></i>Payment Money</h1>
+          </div>
+
+          <div class="col-4">
+            <h1><i class="ri-discount-percent-line"></i></h1>
+            <p class="fw-bold">Booking service fee to admin</p>
+            <p>As site admin you can charge a service fee for every confirmed booking deducted from total value. The fee
+              may be a percentage of the booking price or a fixed amount. The owner contact details will be shown for
+              confirmed bookings only.</p>
+          </div>
+
+          <div class="col-4">
+            <h1><i class="ri-money-dollar-circle-line"></i></h1>
+            <p class="fw-bold">Deposit fee to admin</p>
+            <p>From admin, you can set the deposit value in percentage or as a fixed rate. The fee applies to every
+              booking and will show in user dashboard for each reservation. The deposit can be 0, or can be set to
+              include the service fee only.</p>
+          </div>
+
+          <div class="col-4">
+            <h1><i class="ri-hand-coin-line"></i></h1>
+            <p class="fw-bold">Pay remaining balance to admin</p>
+            <p>The user will see the remaining balance to be paid and is able to pay it to site admin from his
+              dashboard. For this option, the theme sends a reminder 3 days before start of booking.</p>
+          </div>
+          <div class="col-4">
+            <h1><i class="ri-cash-line"></i></h1>
+            <p class="fw-bold">Invoice details</p>
+            <p>The registered user can see generated invoices in user dashboard when confirming a booking. Also, when
+              buying a membership package or a paid listing an invoice is automatically issued. The user can filter and
+              sort invoices by date and print them.</p>
+          </div>
+          <div class="col-4">
+            <h1><i class="ri-paypal-line"></i></h1>
+            <p class="fw-bold">Choose payment currency</p>
+            <p>From admin, set the payment currency using a dedicated drop-down that lists all currencies supported by
+              PayPal or Stripe. Additionally, in theme options, you can add any currency you need if you choose Wire
+              Transfer as payment method.</p>
+          </div>
+          <div class="col-4">
+            <h1><i class="ri-pix-line"></i></h1>
+            <p class="fw-bold">WooCommerce Payments</p>
+            <p>if you need a different merchant to process payments for deposit or paid submission, install WooCommerce
+              free plugin and use their supported merchants. The theme supports this option as alternative to theme
+              Paypal and Stripe.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <!--wp rental footer-->
+      <footer>
+        <div class="container row d-flex  m-5">
+          <div class="col-3">
+            <img src="./logo.png" alt="">
+          </div>
+          <div class="col-3">
+
+            <p class="fw-bold">
+              Contact us​
+            </p>
+            <p>
+              Client Support System
+            </p>
+            <p>
+              Email Us From Author Profile
+            </p>
+
+          </div>
+
+          <div class="col-3">
+
+            <p class="fw-bold">
+              Documentation
+            </p>
+            <p>
+              Help Manual
+            </p>
+            <p>
+              Video Tutorials
+            </p>
+
+          </div>
+
+          <div class="col-3">
+
+            <p class="fw-bold">
+              Our Premium Portofolio
+            </p>
+            <p>
+              WP Estate Real Estate Theme
+            </p>
+            <p>
+              WP Residence Real Estate Wordpress Theme
+            </p>
+
+          </div>
+        </div>
+      </footer>
+
+      <!--<img height="800px; width=300px;" class="col-6" src="https://motopress.com/wp-content/uploads/2019/07/Luviana-main-image.jpg" alt="">-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
